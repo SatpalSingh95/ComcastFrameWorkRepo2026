@@ -26,7 +26,7 @@ public class CreateContactTest extends BaseClass {
 
 	@Test(groups = { "smokeTest", "regressionTest" })
 	public void createContactTest() throws Throwable {
-		//Test Scripts added 
+		//Test
 		//ListImpClass.test.log(Status.INFO,"read data from excel");
 		UtilityClassObject.getTest().log(Status.INFO, "read data drom excel");
 
