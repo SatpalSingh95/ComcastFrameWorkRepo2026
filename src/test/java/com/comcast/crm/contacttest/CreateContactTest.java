@@ -28,6 +28,7 @@ public class CreateContactTest extends BaseClass {
 	public void createContactTest() throws Throwable {
 		//Test 1 fghfjhgfghfgjgfcd
 		//Satpal made changes
+		//Master approves Satpal's changes
 		//ListImpClass.test.log(Status.INFO,"read data from excel");
 		UtilityClassObject.getTest().log(Status.INFO, "read data drom excel");
 
