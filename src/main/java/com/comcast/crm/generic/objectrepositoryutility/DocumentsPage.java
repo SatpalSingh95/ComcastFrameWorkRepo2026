@@ -20,5 +20,5 @@ public class DocumentsPage {
 
 	@FindBy(name = "search")
 	private WebElement ele2;
-//pom test data
+//pom test data normal
 }
