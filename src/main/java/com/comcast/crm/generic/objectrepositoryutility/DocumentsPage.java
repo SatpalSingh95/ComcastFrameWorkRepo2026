@@ -7,16 +7,18 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DocumentsPage {
 
-
 	WebDriver driver;
-	public DocumentsPage(WebDriver driver) 
-	{
-		this.driver =driver;
+
+	public DocumentsPage(WebDriver driver) {
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		
+
 	}
-	
-	
-	@FindBy(xpath="//img[@alt='Create Document...']")
+
+	@FindBy(xpath = "//img[@alt='Create Document...']")
 	private WebElement documentImgBtn;
+
+	@FindBy(name = "search")
+	private WebElement ele2;
+
 }
