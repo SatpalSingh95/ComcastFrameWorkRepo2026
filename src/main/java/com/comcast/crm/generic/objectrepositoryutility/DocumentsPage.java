@@ -18,7 +18,11 @@ public class DocumentsPage {
 	@FindBy(xpath = "//img[@alt='Create Document...']")
 	private WebElement documentImgBtn;
 
+
 	@FindBy(name = "searchBtn")
 	private WebElement ele3;
 	//demo
+	@FindBy(name = "search")
+	private WebElement ele2;
+//pom demo testedasvas
 }
